@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "summary": "A short description of PGToolKit.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/Cicada/PGToolKit",
+  "homepage": "https://github.com/ZLJZ/PGToolKit",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "Cicada": "wuxl@orbyun.com"
   },
   "source": {
-    "git": "https://github.com/Cicada/PGToolKit.git",
+    "git": "https://github.com/ZLJZ/PGToolKit.git",
     "tag": "0.1.0"
   },
   "platforms": {

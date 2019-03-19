@@ -29,7 +29,6 @@
             alertController.alertView.transform = CGAffineTransformMakeTranslation(0, -CGRectGetMaxY(alertController.alertView.frame));
             break;
         case TYAlertControllerStyleActionSheet:
-            P_Log(@"don't support ActionSheet style!");
             break;
         default:
             break;
@@ -60,7 +59,6 @@
                 alertController.alertView.transform = CGAffineTransformMakeScale(0.9, 0.9);
                 break;
             case TYAlertControllerStyleActionSheet:
-                P_Log(@"don't support ActionSheet style!");
                 break;
             default:
                 break;

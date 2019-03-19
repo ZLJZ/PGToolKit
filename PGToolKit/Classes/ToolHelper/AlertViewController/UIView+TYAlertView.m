@@ -65,7 +65,6 @@
     if ([self isShowInWindow]) {
         [(TYShowAlertView *)self.superview hide];
     }else {
-        P_Log(@"self.superview is nil, or isn't TYShowAlertView");
     }
 }
 
@@ -107,7 +106,6 @@
     if ([self isShowInAlertController]) {
         [(TYAlertController *)self.viewController dismissViewControllerAnimated:YES];
     }else {
-        P_Log(@"self.viewController is nil, or isn't TYAlertController");
     }
 }
 
@@ -138,7 +136,6 @@
     }else if ([self isShowInWindow]) {
         [self hideInWindow];
     }else {
-        P_Log(@"self.viewController is nil, or isn't TYAlertController,or self.superview is nil, or isn't TYShowAlertView");
     }
 }
 

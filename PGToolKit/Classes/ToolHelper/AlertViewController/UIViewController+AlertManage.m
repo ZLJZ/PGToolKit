@@ -35,7 +35,7 @@
 - (void)PanGu_presentViewController:(UIViewController *)controller animated: (BOOL)flag completion:(void (^)(void))completion{
     //将队列线程阻塞住，就好像将弹窗的位置当做一个公共资源来访问，只有在当前弹窗位置没有窗口的时候才允许弹窗，
     dispatch_semaphore_t semaphore = dispatch_semaphore_create(0);
-    uWeakSelf
+    __weak typeof(self) weakSelf = self;
     NSBlockOperation *operation = [NSBlockOperation blockOperationWithBlock:^{
         
         dispatch_async(dispatch_get_main_queue(), ^{

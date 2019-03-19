@@ -190,7 +190,6 @@
 
 - (void)dealloc
 {
-    P_Log(@"%@ dealloc",NSStringFromClass([self class]));
 }
 
 @end

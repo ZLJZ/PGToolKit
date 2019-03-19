@@ -1,0 +1,1244 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04F23ED96B48A293CEF21FC9F042DBD4 /* DateHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = C7B9CC388B46C86DBE686140E6E1B827 /* DateHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		06CD419239CC968E22591A0984AB2133 /* TXSakuraBarItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FC21EC02C05295C1049C35C98C0B7BC /* TXSakuraBarItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08D928B377F2D397D0B4925E62CC0D10 /* TAAnimatedDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E59F2C9D9BE5031D15C4FACBD2E860 /* TAAnimatedDotView.m */; };
+		0AE5CE03EA362C74B99F9192AD6185BA /* TXSakuraBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E8108E06119A11AF347D048C156813B /* TXSakuraBar.m */; };
+		0F8617EDDF12305960CA0718DA01467F /* TXSakura.h in Headers */ = {isa = PBXBuildFile; fileRef = 774ED2A0DAB42424CB32A707D608000E /* TXSakura.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		110791655501E2195758DBCAA8AEBD70 /* UIImage+ImageWithColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 9327E097D86572C9E9956AFA916A81B7 /* UIImage+ImageWithColor.m */; };
+		15B1FCC1AE79C3220B7B8C9F2CF7675B /* TXSakuraController.h in Headers */ = {isa = PBXBuildFile; fileRef = ED0669360A2137DDDC0FC6B4FE562C63 /* TXSakuraController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		15B676BED69037FEA0DCDE3DBEFBC72E /* TXSakuraTrash.h in Headers */ = {isa = PBXBuildFile; fileRef = CA56F2AA588B080064E8684A50153CAC /* TXSakuraTrash.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1672FE40FAF88D91649C4E36073196F8 /* TXSakuraButton.m in Sources */ = {isa = PBXBuildFile; fileRef = ECFB9E6BF75A0156FB03C39823C92D82 /* TXSakuraButton.m */; };
+		19FAEA690196CE5C179D2664F09DC4A0 /* TAPageControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 37BA939077542E6ECD94C7D1326A8C9B /* TAPageControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A053F41FE00B13B1CA7021AE12E2FB0 /* DLLoading.h in Headers */ = {isa = PBXBuildFile; fileRef = 3ACCBB21FF55CC973A03F1BAB52993C3 /* DLLoading.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D8062CFEA071DC737C922CE5F12ED5E /* TYAlertDropDownAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = E4D152209750EFFD341601CE92C740C9 /* TYAlertDropDownAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1ED4DCC28C1B0AFDE5934C88E5E92F7E /* LLARingSpinnerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 92BF9145C42BFD043C72B6BF269D7CFC /* LLARingSpinnerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20861D496B7A4FCEE2753EA932BE1172 /* UIImage+ImageWithColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 797DDAEE5EE35284FC537B1D20B23D70 /* UIImage+ImageWithColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		208B178BFD8EF75231716D66BB4E9A03 /* UIView+TYAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 16AD6C9EDD3C05962F91CE41F6AA8CB8 /* UIView+TYAlertView.m */; };
+		21A6984690A3ED773F6FD6946233B822 /* TXSakuraLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = AC46A8BD6BA4C662D502B1A4D2AD96C8 /* TXSakuraLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22F9952CF4315DED5286F3D1C17526D6 /* UIImage+Tint.h in Headers */ = {isa = PBXBuildFile; fileRef = 78AB13E580CE1D9B8ED4BB072BBDB702 /* UIImage+Tint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BF3ECD6439146E7EB7637FA032306BE /* TYShowAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = E2C46E07543AF8A1B7832754FF39FB3B /* TYShowAlertView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		35CA4C2579BB98060B8095EF6407ACD8 /* TYAlertDropDownAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 425D5540A782CE1B3202D8ABC10E78E8 /* TYAlertDropDownAnimation.m */; };
+		379158AA1B1CCBDB1D6E8FA5966C14E7 /* TYAlertFadeAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 18F445131E6DE7E57E7FF0B96566781D /* TYAlertFadeAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B6638D35887AC542B8C152CF9A4D025 /* UIView+TYAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 903D5A190440BD40B3EBEFDDB9BE0F7B /* UIView+TYAutoLayout.m */; };
+		3D2AEC9E6E6A51843CC9671B538DD1DB /* WXLLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 30250FF11A51140C00EE8CB62A74EDFD /* WXLLabel.m */; };
+		3E599DB947EFC66D4E51DE432D359DD0 /* TXSakuraLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D0760635132E87843B7BE5284F9B45 /* TXSakuraLabel.m */; };
+		40C594CA8542387ACAC6B63D40F1C109 /* TYAlertController+TransitionAnimate.m in Sources */ = {isa = PBXBuildFile; fileRef = 382634A7B50F67937BF3C423908A6DA7 /* TYAlertController+TransitionAnimate.m */; };
+		43427312E95632B78BDF7D424E3FEF63 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		4343A8BFD6E5E121A3C15AEDB9618416 /* TXSakuraShapeLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 24A809D0BA6B19C6BC0F5D26BD1458BE /* TXSakuraShapeLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4601BCCC7A114F5EA052C3C378BAF3F0 /* TXSakuraTextComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = 85DA84E6DC5FA7AEF0E725D1CEFF88BE /* TXSakuraTextComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47D16DC5A8526B0D20222F0FAC04A745 /* DateHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C89DB245C8161C9BCC1E4DF4CA6662E5 /* DateHelper.m */; };
+		4D399D0104DC360EEF7A4F6A44A20EDB /* TXSakuraView.m in Sources */ = {isa = PBXBuildFile; fileRef = E84CF5B223198B47C00426390FE4C0FE /* TXSakuraView.m */; };
+		4DA2730E21E7AA05A68BDBDAD253C93B /* TYAlertController.h in Headers */ = {isa = PBXBuildFile; fileRef = 66ACE1769A8255E4A828A9B8F3E92084 /* TYAlertController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E2388CF39251401ED1A3F5D8F80F8EF /* TXSakuraApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 463AB45C72E8BDB56B277BCB4193FA46 /* TXSakuraApplication.m */; };
+		4FD785B4CE8A0202A74F9EC67ADBE90A /* TXSakuraKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B18365C21B525FDB87B4156CCAF5369 /* TXSakuraKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4FFA8F0ACFC8CC3C0A397D5FD6694A39 /* TAAbstractDotView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4446583AFA1A8F7E19B51A0F2632300F /* TAAbstractDotView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52431641178CE73628B531C409E3B8FF /* UIScrollView+EmptyDataSet.m in Sources */ = {isa = PBXBuildFile; fileRef = FC01AEA9A95B3DEED22E8E04B6E0689C /* UIScrollView+EmptyDataSet.m */; };
+		55D99363CC61782380E530F1D1CF2C91 /* TXSakura.m in Sources */ = {isa = PBXBuildFile; fileRef = 8667335B13EFE71739716C8621621243 /* TXSakura.m */; };
+		55DB5330C47AA8BAF239D2CDE1C06D12 /* UIViewController+AlertManage.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B5608E24B9395D8727E372056249A09 /* UIViewController+AlertManage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56F26B8AC0255BBB08706763911E34EE /* UIView+frame.h in Headers */ = {isa = PBXBuildFile; fileRef = 5647CC4A374BAF4A9BCB2205FF23546E /* UIView+frame.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		590374973AD6EEF28212002AF780FFAF /* PGToolKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A163CA6EA9699C4E16E5499388A5D0E1 /* PGToolKit-dummy.m */; };
+		5BDB7BF3A0568BBEEF75B5E26954955F /* TXSakuraButton.h in Headers */ = {isa = PBXBuildFile; fileRef = AE6AE13F2DC24A919E05E24E8F0F5BFA /* TXSakuraButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E619619ECB341B30097B8E0EA6F155B /* TXSakuraImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8400BB63A46D4A450E25524F922660DF /* TXSakuraImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F6290D0809B209D9191871993F829CD /* TYShowAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E85C8C1FB0A01F437F1E99B57B2DA13 /* TYShowAlertView.m */; };
+		629DE10ABF68351D206AB084D5D91841 /* TXSakuraView.h in Headers */ = {isa = PBXBuildFile; fileRef = E3C76A4277C6051DE2EF9BE611ADAF99 /* TXSakuraView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63CFAE2183AE105AB588CF8EBA580796 /* TXSakuraProgress.h in Headers */ = {isa = PBXBuildFile; fileRef = 67F5E019B53DF59D3926D10A57B0D822 /* TXSakuraProgress.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64294B475E46F594F6815D157B704383 /* TAAnimatedDotView.h in Headers */ = {isa = PBXBuildFile; fileRef = 61786596AD9A046A86984FE5CF907948 /* TAAnimatedDotView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67582A9AD38DDA3A809ECE6C226FA63A /* MyAttributedStringBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = D78F4CF47CDD83499518096793F039BA /* MyAttributedStringBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		687534D75420AF0D499DBEAA07C8DF92 /* UIViewController+AlertManage.m in Sources */ = {isa = PBXBuildFile; fileRef = 93640D833DDDCE8FAEDAC95B57095776 /* UIViewController+AlertManage.m */; };
+		6AE187DA72B7DA38FC427F7E735BA0F8 /* Pods-PGToolKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A43116C41B8C5C19B159C1575D97E571 /* Pods-PGToolKit_Tests-dummy.m */; };
+		7095900D7111DF4EF906487F119A2EEC /* TXSakuraTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 594C27F3AA306D8E0C6C7200F009C73F /* TXSakuraTableView.m */; };
+		7280A4D4393073D219699BAE2234A502 /* UIView+SDExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 20FB43791E2361C20E7D33F38E3EA9B6 /* UIView+SDExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		752EDF22F844272F76A2362BFEF50528 /* TYAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE049D934446280D5FD4CB06F453D560 /* TYAlertController.m */; };
+		7D39C4A314CC048E03C29F5D0272E2DA /* TYBaseAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = B1C7BEBC946AB5DBF8B3CFDB17F5982B /* TYBaseAnimation.m */; };
+		7FF349F4F1765481E74FAAD87E9EA61E /* UIView+TYAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = D9B85F27D88C3FF5FB7CEA1D625037DC /* UIView+TYAlertView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E209DA52E53507899785F39A083410B /* TXSakuraManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1924D3AEE84794CB1FEBFC81D2F1CF17 /* TXSakuraManager.m */; };
+		8E326481872020971F50222D0E7BDC33 /* TXSakuraSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E09D062208F5DD25077FAD9C515A06 /* TXSakuraSwitch.m */; };
+		905A4161A88301ABC6086A690F17A586 /* DLLoadingView.h in Headers */ = {isa = PBXBuildFile; fileRef = A54B165C389CC0DB6EC22AF98B2DDEE8 /* DLLoadingView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		925B2227264CE8BB8440ACF9F982DBD1 /* Pods-PGToolKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DCD2790CC5454EEFB3544E8A1D59FA9E /* Pods-PGToolKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		932C67E657221C790008EBA268DA5BD1 /* TYBaseAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 13E6A8F5106E5A0BE0F932A9E2714060 /* TYBaseAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		93394630F6EE5C96ABA804238B534FA4 /* NSArray+set.h in Headers */ = {isa = PBXBuildFile; fileRef = F105A86C2001558070FA050EB16F1E89 /* NSArray+set.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94F4126B56AF5BB660F90D5788836363 /* TYAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CA48B1A2BADDDCD2B8CFF07B436F231 /* TYAlertView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		955B83B9A2DFB1722E45462ED5500CC3 /* UIScrollView+EmptyDataSet.h in Headers */ = {isa = PBXBuildFile; fileRef = 9192123542B783C7B85C7CEEF2FF0C9E /* UIScrollView+EmptyDataSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99BD7A60367F6EC63C5D6247961854D9 /* ToolHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = D6F526402E4980B5A09DD8FC6CDDCA73 /* ToolHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A513EC038DE91D9CAB4FB13A21F7036 /* ToolHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C5FA78138D136A7AFBCBD02303CFEF5 /* ToolHelper.m */; };
+		A1B7744497489E7F805E1D21949D6150 /* UIImage+info.m in Sources */ = {isa = PBXBuildFile; fileRef = 0434DFACF87F12A19D581D1753343F83 /* UIImage+info.m */; };
+		A21F625759E1A6127157E8190C66FD1F /* Pods-PGToolKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 038779B695F0255CCABCF62737AB17BD /* Pods-PGToolKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A336F75A8C6DA13E204B00CE9AF1FA01 /* UIView+SDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2583B8FB4435043FF0FF830E6B5FDC54 /* UIView+SDExtension.m */; };
+		A34F43724294B1DF7B3880D8A9ABC47F /* WXLLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 841FE4ECE7A4549362707E557B187887 /* WXLLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A36290785DF7A456C2F53BE50A028BA5 /* TXSakuraPageControl.h in Headers */ = {isa = PBXBuildFile; fileRef = AD6F39C862E88BA7DD9CB9F938FA7B2C /* TXSakuraPageControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4FEAE540CFF8088F07EB384EAB7070B /* DLLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = C2771CFB1D8EC034F73FA35C2A7CCBEA /* DLLoadingView.m */; };
+		A5B0C45E2CDE2B9A0B24B771ACE4C0DF /* UIImage+Tint.m in Sources */ = {isa = PBXBuildFile; fileRef = AD6C4CE18A50D125EA0D7B203436900E /* UIImage+Tint.m */; };
+		A5FB15A6D2615C3DF335907EF56D1442 /* TYAlertScaleFadeAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AE9B3916A9895D94D3D7822F03BE280 /* TYAlertScaleFadeAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A9B5EB076F8C564D808DCB4EFDF6F6D2 /* TXSakuraBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D906B525D1F8584A969D9164D04D255 /* TXSakuraBarItem.m */; };
+		AA237830DD877AD938CAB68DC89921BC /* TXSakuraLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 15CF3C9AC834D5B0D81833B5B1FD9DD2 /* TXSakuraLayer.m */; };
+		AA2A1162668A2D37C34834FE47874A99 /* TXSakuraPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 997FA56DA4278F72D1FFA3667899F73C /* TXSakuraPageControl.m */; };
+		AC56D3D2D85A47EEAF7C0A86046B42D5 /* TXSakuraManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E42D6A5C74DE73EBC08B78647252B8D5 /* TXSakuraManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADF6243FEA70CEF3780BCBDFE2188305 /* UIImage+info.h in Headers */ = {isa = PBXBuildFile; fileRef = B627D07007EEA0B4E93AFC5D51102B55 /* UIImage+info.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5455ED640ADD3E92E7B2E4D053777B6 /* TXSakuraTrash.m in Sources */ = {isa = PBXBuildFile; fileRef = 8132A8359DF41F3B7EA89E77BB800553 /* TXSakuraTrash.m */; };
+		B6F672C95FA53395A6541D6D4EC10F07 /* UIView+XMGExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9529392397967142E582E732A738A7B4 /* UIView+XMGExtension.m */; };
+		B7D40A2B95EC9B2CFAA4016F21C75E36 /* UIView+XMGExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C2B8937597C640CE9E2229820629FFD /* UIView+XMGExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7E25BBDE0C4A42722D7A8EF7DFCD921 /* TAPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = A7D3D72A04BE9AC527DA3A505DE254FA /* TAPageControl.m */; };
+		B80B9CB6217EE8B8D7BCB9BDDCAC119F /* TXSakuraSwitch.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C1FAE26AE3746351A4AAB689DA54A42 /* TXSakuraSwitch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BBA1A4FDEC9DD2260E61AEC16B80F161 /* TXSakuraShapeLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = EB5D9D345F93D08315480EF32D956197 /* TXSakuraShapeLayer.m */; };
+		BD47A12E7F67668AFAB75B47F45B37D9 /* PGToolKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B2525BBB774235A20A951BD760DBBA2A /* PGToolKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE800207A242039B5F4C64ADB2A91E23 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		BEF3B8127DE884DF89F22258C7F33D1F /* Pods-PGToolKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DF46342BDA61397DD0C2A77B8B672C3B /* Pods-PGToolKit_Example-dummy.m */; };
+		C0A0236BBCD2404FEF25BF787C2172A4 /* SDCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 51947152BA930D7019402AB2F6DED7E5 /* SDCollectionViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C11A620CDD9FFD326B9196CF6329EC07 /* TXSakuraTextComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = C80E52AFA5722D0BBE271ED53DBAB8AF /* TXSakuraTextComponent.m */; };
+		C330A532E1CEF89FF283D7BEB7250AC5 /* TXSakuraImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 86D9DB674388053647BC701D7EC7B1FA /* TXSakuraImageView.m */; };
+		C3FAE8005314289B096C959661C21CC6 /* TYAlertScaleFadeAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 67CBCA43BEA2BDA98F611544FE15E6D3 /* TYAlertScaleFadeAnimation.m */; };
+		C408304DF8D730F33542C863C3B4F589 /* TADotView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CC44F53E57343F4C14CB8EFE18FEA19 /* TADotView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C6EC5CA5E398977E6533C3F89A5B11AD /* UIView+frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4A21463F0D91BA2E7CA3DB8D7A7125 /* UIView+frame.m */; };
+		C72BC9A5499F11DB7DE804CCF1F95F3B /* TYAlertFadeAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CC7FB5D2A565599951F04CCA2C9C4F3 /* TYAlertFadeAnimation.m */; };
+		C7FB2D2AAE6CC54A66531E3955FED1E5 /* SDCycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E14AE1ED7641F1B508A7C1FFC89C5DE /* SDCycleScrollView.m */; };
+		CC0620860822E1B6A10DF8762EF99A8F /* SDCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F84D7C34D3F342E950293197C674D007 /* SDCollectionViewCell.m */; };
+		CCB6190AD7596F50BD20EF191718E22A /* LLARingSpinnerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 061F6E86536ADC360F31F150A65F2E45 /* LLARingSpinnerView.m */; };
+		CD6393617825AC0F8054ED5BF51E906F /* TXSakuraSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = EE77F478CE0422CA8C05BA68C44E1FA2 /* TXSakuraSlider.m */; };
+		D15E6BA3C59FB651D60DF33312B9EEC0 /* TXSakuraLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 76061484FAC515D04347D3A24AFDA98C /* TXSakuraLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D1933EE37E7F62C00E9C37B62A09770B /* TXSakuraController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D7E8545B2EE7A771DA023C703ED02D7 /* TXSakuraController.m */; };
+		D230BC0BAA08D24B5E9EA837FD3EB2B9 /* TXSakuraIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = DA2A2F2FC7DF557DEE3F691535FBA51C /* TXSakuraIndicatorView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D767CF054970A7810EF13252FAEFD535 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		DA2F4D03020CA9B06A3329667E99803D /* TXSakuraNavigationBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D91E411D5E2B6066704C4AD89C47530 /* TXSakuraNavigationBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DAE931733C296ED8D9D64F42449ABBC7 /* TXSakuraTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = F87A3E8CB630FF7434877568B46EE79C /* TXSakuraTableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE01F6D40F5DDA53DED04DAFD96B5A24 /* NSArray+set.m in Sources */ = {isa = PBXBuildFile; fileRef = B01C5199BB3D6CFB66969A9E20961C51 /* NSArray+set.m */; };
+		E15935DDF83F7C293C9FFF5B035D8E56 /* SDCycleScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F747F8F5AEDF5C4463D04913D27642B /* SDCycleScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3339679D0DC10B4334D1005B5B237DB /* TAAbstractDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1ADE07C3098001825FDD3B33A41C734 /* TAAbstractDotView.m */; };
+		E526CF7F605D9377ADCF81223BA1C8AE /* UIView+TYAutoLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F2BDDCF5E47A61E98212C8609218F50 /* UIView+TYAutoLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7A0C9B6ACA8A3F5C83CFD0B9662E055 /* TXSakuraBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 967049F97CF909CECBC36D8259DA88BE /* TXSakuraBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EAF85D8F0E2168F6C2819E8E1A845C0C /* TXSakuraApplication.h in Headers */ = {isa = PBXBuildFile; fileRef = FDE0C242EB8E36895B8F25E3F673992D /* TXSakuraApplication.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EBEA1912508886AD3B4C1AA9911810F1 /* TADotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BB3854296DC7FC0588F43A30E81355A /* TADotView.m */; };
+		F02648DF14F20F2AC91CC52B41803CFC /* TXSakuraProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C9C5FAC07CE2D00B0C3875E925B0AB /* TXSakuraProgress.m */; };
+		F0750A03ED07A5628B6C16272872FE05 /* DLLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = 373FF5D80CC8BD443F51ADDCA693F1B6 /* DLLoading.m */; };
+		F0A4E4F78FC9E8D6D64916A1A194AC01 /* TXSakuraSlider.h in Headers */ = {isa = PBXBuildFile; fileRef = F674E0CA46064EA30A6B028A9747262F /* TXSakuraSlider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4702C0B76AE41AFA9CDB59A8EA18F5C /* TXSakuraNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 89B583CD4F2F37BFE910CADC5DB9338E /* TXSakuraNavigationBar.m */; };
+		F930CE23DD84321BB3BCC51619D2E526 /* TYAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E7E7CB713260744FC3E29D993651CDA /* TYAlertView.m */; };
+		FD1B39FBF8F96AE8FE13EA997F3564B0 /* MyAttributedStringBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1670AF1A40A7B332662B67555A80DDE0 /* MyAttributedStringBuilder.m */; };
+		FFA875F8359F122E9E9252F3C0F139FA /* TXSakuraIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = C28579B2DA5C960646D96C3587E0FB9C /* TXSakuraIndicatorView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		06D01452D486CB92832B723A9835FB81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF2ACC2D909C27A4FDE5D35D0836B14D;
+			remoteInfo = PGToolKit;
+		};
+		983F07B3AC39FBAC814FE28DDC177ED2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A94F98612010F4B1BCFF419A45D5773C;
+			remoteInfo = "Pods-PGToolKit_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		038779B695F0255CCABCF62737AB17BD /* Pods-PGToolKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PGToolKit_Example-umbrella.h"; sourceTree = "<group>"; };
+		0434DFACF87F12A19D581D1753343F83 /* UIImage+info.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+info.m"; sourceTree = "<group>"; };
+		061F6E86536ADC360F31F150A65F2E45 /* LLARingSpinnerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LLARingSpinnerView.m; sourceTree = "<group>"; };
+		0B18365C21B525FDB87B4156CCAF5369 /* TXSakuraKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TXSakuraKit.h; sourceTree = "<group>"; };
+		0E85C8C1FB0A01F437F1E99B57B2DA13 /* TYShowAlertView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TYShowAlertView.m; sourceTree = "<group>"; };
+		0EDB4061B32CAC3C584E46782390F0CC /* PGToolKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PGToolKit-prefix.pch"; sourceTree = "<group>"; };
+		13E6A8F5106E5A0BE0F932A9E2714060 /* TYBaseAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TYBaseAnimation.h; sourceTree = "<group>"; };
+		15CF3C9AC834D5B0D81833B5B1FD9DD2 /* TXSakuraLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TXSakuraLayer.m; sourceTree = "<group>"; };
+		1670AF1A40A7B332662B67555A80DDE0 /* MyAttributedStringBuilder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MyAttributedStringBuilder.m; path = PGToolKit/Classes/ToolHelper/MyAttributedStringBuilder.m; sourceTree = "<group>"; };
+		16AD6C9EDD3C05962F91CE41F6AA8CB8 /* UIView+TYAlertView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+TYAlertView.m"; sourceTree = "<group>"; };
+		18F445131E6DE7E57E7FF0B96566781D /* TYAlertFadeAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TYAlertFadeAnimation.h; sourceTree = "<group>"; };
+		1924D3AEE84794CB1FEBFC81D2F1CF17 /* TXSakuraManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TXSakuraManager.m; sourceTree = "<group>"; };
+		1B4F8753D79702332C6652856C955718 /* Pods-PGToolKit_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PGToolKit_Example-resources.sh"; sourceTree = "<group>"; };
+		1E14AE1ED7641F1B508A7C1FFC89C5DE /* SDCycleScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SDCycleScrollView.m; sourceTree = "<group>"; };
+		1E7E7CB713260744FC3E29D993651CDA /* TYAlertView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TYAlertView.m; sourceTree = "<group>"; };
+		1E8108E06119A11AF347D048C156813B /* TXSakuraBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TXSakuraBar.m; sourceTree = "<group>"; };
+		20FB43791E2361C20E7D33F38E3EA9B6 /* UIView+SDExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+SDExtension.h"; sourceTree = "<group>"; };
+		24A809D0BA6B19C6BC0F5D26BD1458BE /* TXSakuraShapeLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TXSakuraShapeLayer.h; sourceTree = "<group>"; };
+		2583B8FB4435043FF0FF830E6B5FDC54 /* UIView+SDExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+SDExtension.m"; sourceTree = "<group>"; };
+		273345147A69E482CAFB23722F95BB42 /* PGToolKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PGToolKit.xcconfig; sourceTree = "<group>"; };
+		27F6B56268A4298429AC70C4112B01AF /* Pods-PGToolKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PGToolKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		2B5608E24B9395D8727E372056249A09 /* UIViewController+AlertManage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+AlertManage.h"; sourceTree = "<group>"; };
+		2C5FA78138D136A7AFBCBD02303CFEF5 /* ToolHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ToolHelper.m; path = PGToolKit/Classes/ToolHelper/ToolHelper.m; sourceTree = "<group>"; };
+		30250FF11A51140C00EE8CB62A74EDFD /* WXLLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WXLLabel.m; path = PGToolKit/Classes/ToolHelper/WXLLabel.m; sourceTree = "<group>"; };
+		373FF5D80CC8BD443F51ADDCA693F1B6 /* DLLoading.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DLLoading.m; sourceTree = "<group>"; };
+		37BA939077542E6ECD94C7D1326A8C9B /* TAPageControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TAPageControl.h; sourceTree = "<group>"; };
+		382634A7B50F67937BF3C423908A6DA7 /* TYAlertController+TransitionAnimate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TYAlertController+TransitionAnimate.m"; sourceTree = "<group>"; };
+		3ACCBB21FF55CC973A03F1BAB52993C3 /* DLLoading.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DLLoading.h; sourceTree = "<group>"; };
+		3C1FAE26AE3746351A4AAB689DA54A42 /* TXSakuraSwitch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TXSakuraSwitch.h; sourceTree = "<group>"; };
+		425D5540A782CE1B3202D8ABC10E78E8 /* TYAlertDropDownAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TYAlertDropDownAnimation.m; sourceTree = "<group>"; };
+		4446583AFA1A8F7E19B51A0F2632300F /* TAAbstractDotView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TAAbstractDotView.h; sourceTree = "<group>"; };
+		45AEFCDB8E2A1CFBD3F35A4685940A46 /* Pods-PGToolKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PGToolKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		463AB45C72E8BDB56B277BCB4193FA46 /* TXSakuraApplication.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TXSakuraApplication.m; sourceTree = "<group>"; };
+		51947152BA930D7019402AB2F6DED7E5 /* SDCollectionViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDCollectionViewCell.h; sourceTree = "<group>"; };
+		5647CC4A374BAF4A9BCB2205FF23546E /* UIView+frame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+frame.h"; sourceTree = "<group>"; };
+		594C27F3AA306D8E0C6C7200F009C73F /* TXSakuraTableView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TXSakuraTableView.m; sourceTree = "<group>"; };
+		5AE9B3916A9895D94D3D7822F03BE280 /* TYAlertScaleFadeAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TYAlertScaleFadeAnimation.h; sourceTree = "<group>"; };
+		61786596AD9A046A86984FE5CF907948 /* TAAnimatedDotView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TAAnimatedDotView.h; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		66ACE1769A8255E4A828A9B8F3E92084 /* TYAlertController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TYAlertController.h; sourceTree = "<group>"; };
+		67CBCA43BEA2BDA98F611544FE15E6D3 /* TYAlertScaleFadeAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TYAlertScaleFadeAnimation.m; sourceTree = "<group>"; };
+		67F5E019B53DF59D3926D10A57B0D822 /* TXSakuraProgress.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TXSakuraProgress.h; sourceTree = "<group>"; };
+		6CC44F53E57343F4C14CB8EFE18FEA19 /* TADotView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TADotView.h; sourceTree = "<group>"; };
+		6F44FFAD4FD77698B4C3E8C70B0E1C2E /* Pods-PGToolKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PGToolKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		71C740F2F3A1119C037A8090314B24DD /* PGToolKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PGToolKit.modulemap; sourceTree = "<group>"; };
+		7251D2D2D042D09886602A539BE9F549 /* Pods-PGToolKit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PGToolKit_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		76061484FAC515D04347D3A24AFDA98C /* TXSakuraLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TXSakuraLabel.h; sourceTree = "<group>"; };
+		76E09D062208F5DD25077FAD9C515A06 /* TXSakuraSwitch.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TXSakuraSwitch.m; sourceTree = "<group>"; };
+		774ED2A0DAB42424CB32A707D608000E /* TXSakura.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TXSakura.h; sourceTree = "<group>"; };
+		7868FCFDAD35FAFBD2434683BDF41FCD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		78AB13E580CE1D9B8ED4BB072BBDB702 /* UIImage+Tint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+Tint.h"; sourceTree = "<group>"; };
+		797DDAEE5EE35284FC537B1D20B23D70 /* UIImage+ImageWithColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageWithColor.h"; sourceTree = "<group>"; };
+		7CC7FB5D2A565599951F04CCA2C9C4F3 /* TYAlertFadeAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TYAlertFadeAnimation.m; sourceTree = "<group>"; };
+		7D7E8545B2EE7A771DA023C703ED02D7 /* TXSakuraController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TXSakuraController.m; sourceTree = "<group>"; };
+		7D906B525D1F8584A969D9164D04D255 /* TXSakuraBarItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TXSakuraBarItem.m; sourceTree = "<group>"; };
+		7D91E411D5E2B6066704C4AD89C47530 /* TXSakuraNavigationBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TXSakuraNavigationBar.h; sourceTree = "<group>"; };
+		7F04CF9CC1CEC22AD69BBB879B168314 /* Pods-PGToolKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PGToolKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8132A8359DF41F3B7EA89E77BB800553 /* TXSakuraTrash.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TXSakuraTrash.m; sourceTree = "<group>"; };
+		8400BB63A46D4A450E25524F922660DF /* TXSakuraImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TXSakuraImageView.h; sourceTree = "<group>"; };
+		841FE4ECE7A4549362707E557B187887 /* WXLLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXLLabel.h; path = PGToolKit/Classes/ToolHelper/WXLLabel.h; sourceTree = "<group>"; };
+		85DA84E6DC5FA7AEF0E725D1CEFF88BE /* TXSakuraTextComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TXSakuraTextComponent.h; sourceTree = "<group>"; };
+		8667335B13EFE71739716C8621621243 /* TXSakura.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TXSakura.m; sourceTree = "<group>"; };
+		86D9DB674388053647BC701D7EC7B1FA /* TXSakuraImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TXSakuraImageView.m; sourceTree = "<group>"; };
+		89B583CD4F2F37BFE910CADC5DB9338E /* TXSakuraNavigationBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TXSakuraNavigationBar.m; sourceTree = "<group>"; };
+		8BB3854296DC7FC0588F43A30E81355A /* TADotView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TADotView.m; sourceTree = "<group>"; };
+		8C2B8937597C640CE9E2229820629FFD /* UIView+XMGExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+XMGExtension.h"; sourceTree = "<group>"; };
+		8D4A21463F0D91BA2E7CA3DB8D7A7125 /* UIView+frame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+frame.m"; sourceTree = "<group>"; };
+		8F2BDDCF5E47A61E98212C8609218F50 /* UIView+TYAutoLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+TYAutoLayout.h"; sourceTree = "<group>"; };
+		903D5A190440BD40B3EBEFDDB9BE0F7B /* UIView+TYAutoLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+TYAutoLayout.m"; sourceTree = "<group>"; };
+		9192123542B783C7B85C7CEEF2FF0C9E /* UIScrollView+EmptyDataSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+EmptyDataSet.h"; path = "PGToolKit/Classes/ToolHelper/UIScrollView+EmptyDataSet.h"; sourceTree = "<group>"; };
+		92BF9145C42BFD043C72B6BF269D7CFC /* LLARingSpinnerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LLARingSpinnerView.h; sourceTree = "<group>"; };
+		9327E097D86572C9E9956AFA916A81B7 /* UIImage+ImageWithColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageWithColor.m"; sourceTree = "<group>"; };
+		93640D833DDDCE8FAEDAC95B57095776 /* UIViewController+AlertManage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+AlertManage.m"; sourceTree = "<group>"; };
+		9397A74551A07FE54F868FC9C170ADF7 /* Pods-PGToolKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PGToolKit_Tests.modulemap"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9529392397967142E582E732A738A7B4 /* UIView+XMGExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+XMGExtension.m"; sourceTree = "<group>"; };
+		967049F97CF909CECBC36D8259DA88BE /* TXSakuraBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TXSakuraBar.h; sourceTree = "<group>"; };
+		997FA56DA4278F72D1FFA3667899F73C /* TXSakuraPageControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TXSakuraPageControl.m; sourceTree = "<group>"; };
+		9CA48B1A2BADDDCD2B8CFF07B436F231 /* TYAlertView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TYAlertView.h; sourceTree = "<group>"; };
+		9F747F8F5AEDF5C4463D04913D27642B /* SDCycleScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDCycleScrollView.h; sourceTree = "<group>"; };
+		9FC21EC02C05295C1049C35C98C0B7BC /* TXSakuraBarItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TXSakuraBarItem.h; sourceTree = "<group>"; };
+		A163CA6EA9699C4E16E5499388A5D0E1 /* PGToolKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PGToolKit-dummy.m"; sourceTree = "<group>"; };
+		A2A76FAA000D2DBDFDC0625F61DCDD5D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2D00D8E685616DE9CC3178D669E0467 /* Pods-PGToolKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PGToolKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		A43116C41B8C5C19B159C1575D97E571 /* Pods-PGToolKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PGToolKit_Tests-dummy.m"; sourceTree = "<group>"; };
+		A472E451CAF140F6878926F5337B73DF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		A54B165C389CC0DB6EC22AF98B2DDEE8 /* DLLoadingView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DLLoadingView.h; sourceTree = "<group>"; };
+		A7D3D72A04BE9AC527DA3A505DE254FA /* TAPageControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TAPageControl.m; sourceTree = "<group>"; };
+		A7E59F2C9D9BE5031D15C4FACBD2E860 /* TAAnimatedDotView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TAAnimatedDotView.m; sourceTree = "<group>"; };
+		AB93FBF755FDDD4C1ACC0A06B16D76F8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC46A8BD6BA4C662D502B1A4D2AD96C8 /* TXSakuraLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TXSakuraLayer.h; sourceTree = "<group>"; };
+		AD6C4CE18A50D125EA0D7B203436900E /* UIImage+Tint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Tint.m"; sourceTree = "<group>"; };
+		AD6F39C862E88BA7DD9CB9F938FA7B2C /* TXSakuraPageControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TXSakuraPageControl.h; sourceTree = "<group>"; };
+		AE6AE13F2DC24A919E05E24E8F0F5BFA /* TXSakuraButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TXSakuraButton.h; sourceTree = "<group>"; };
+		B01C5199BB3D6CFB66969A9E20961C51 /* NSArray+set.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+set.m"; path = "PGToolKit/Classes/ToolHelper/NSArray+set.m"; sourceTree = "<group>"; };
+		B04CBC1361777363940BE3CDBEF2D818 /* Pods-PGToolKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PGToolKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B1C7BEBC946AB5DBF8B3CFDB17F5982B /* TYBaseAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TYBaseAnimation.m; sourceTree = "<group>"; };
+		B2525BBB774235A20A951BD760DBBA2A /* PGToolKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PGToolKit-umbrella.h"; sourceTree = "<group>"; };
+		B2C9C5FAC07CE2D00B0C3875E925B0AB /* TXSakuraProgress.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TXSakuraProgress.m; sourceTree = "<group>"; };
+		B42FB0325A4F5662984B209A0A95D64D /* Pods_PGToolKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PGToolKit_Tests.framework; path = "Pods-PGToolKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B627D07007EEA0B4E93AFC5D51102B55 /* UIImage+info.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+info.h"; sourceTree = "<group>"; };
+		B97460B3B8542F1D529388930FCFFA64 /* Pods-PGToolKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PGToolKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		BE513520878AC6165511AD0889F8B9F3 /* PGToolKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PGToolKit.framework; path = PGToolKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C26939319F6E8AB3CB055E254FE7ABFF /* Pods-PGToolKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PGToolKit_Example.modulemap"; sourceTree = "<group>"; };
+		C2771CFB1D8EC034F73FA35C2A7CCBEA /* DLLoadingView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DLLoadingView.m; sourceTree = "<group>"; };
+		C28579B2DA5C960646D96C3587E0FB9C /* TXSakuraIndicatorView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TXSakuraIndicatorView.m; sourceTree = "<group>"; };
+		C5503C62AF958447DECDAAF5B296B82D /* Pods_PGToolKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PGToolKit_Example.framework; path = "Pods-PGToolKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7B9CC388B46C86DBE686140E6E1B827 /* DateHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DateHelper.h; path = PGToolKit/Classes/ToolHelper/DateHelper.h; sourceTree = "<group>"; };
+		C80E52AFA5722D0BBE271ED53DBAB8AF /* TXSakuraTextComponent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TXSakuraTextComponent.m; sourceTree = "<group>"; };
+		C89DB245C8161C9BCC1E4DF4CA6662E5 /* DateHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DateHelper.m; path = PGToolKit/Classes/ToolHelper/DateHelper.m; sourceTree = "<group>"; };
+		CA56F2AA588B080064E8684A50153CAC /* TXSakuraTrash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TXSakuraTrash.h; sourceTree = "<group>"; };
+		D3D0760635132E87843B7BE5284F9B45 /* TXSakuraLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TXSakuraLabel.m; sourceTree = "<group>"; };
+		D6F526402E4980B5A09DD8FC6CDDCA73 /* ToolHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ToolHelper.h; path = PGToolKit/Classes/ToolHelper/ToolHelper.h; sourceTree = "<group>"; };
+		D78F4CF47CDD83499518096793F039BA /* MyAttributedStringBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MyAttributedStringBuilder.h; path = PGToolKit/Classes/ToolHelper/MyAttributedStringBuilder.h; sourceTree = "<group>"; };
+		D9B85F27D88C3FF5FB7CEA1D625037DC /* UIView+TYAlertView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+TYAlertView.h"; sourceTree = "<group>"; };
+		DA2A2F2FC7DF557DEE3F691535FBA51C /* TXSakuraIndicatorView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TXSakuraIndicatorView.h; sourceTree = "<group>"; };
+		DCD2790CC5454EEFB3544E8A1D59FA9E /* Pods-PGToolKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PGToolKit_Tests-umbrella.h"; sourceTree = "<group>"; };
+		DE049D934446280D5FD4CB06F453D560 /* TYAlertController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TYAlertController.m; sourceTree = "<group>"; };
+		DF46342BDA61397DD0C2A77B8B672C3B /* Pods-PGToolKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PGToolKit_Example-dummy.m"; sourceTree = "<group>"; };
+		E2C46E07543AF8A1B7832754FF39FB3B /* TYShowAlertView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TYShowAlertView.h; sourceTree = "<group>"; };
+		E3C76A4277C6051DE2EF9BE611ADAF99 /* TXSakuraView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TXSakuraView.h; sourceTree = "<group>"; };
+		E42D6A5C74DE73EBC08B78647252B8D5 /* TXSakuraManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TXSakuraManager.h; sourceTree = "<group>"; };
+		E4D152209750EFFD341601CE92C740C9 /* TYAlertDropDownAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TYAlertDropDownAnimation.h; sourceTree = "<group>"; };
+		E5568965A3BA82AA54F8E551F4412776 /* Pods-PGToolKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PGToolKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		E84CF5B223198B47C00426390FE4C0FE /* TXSakuraView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TXSakuraView.m; sourceTree = "<group>"; };
+		EA57F1E79C8315A5FC62E5E0B12968D8 /* Pods-PGToolKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PGToolKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		EB5D9D345F93D08315480EF32D956197 /* TXSakuraShapeLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TXSakuraShapeLayer.m; sourceTree = "<group>"; };
+		ECFB9E6BF75A0156FB03C39823C92D82 /* TXSakuraButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TXSakuraButton.m; sourceTree = "<group>"; };
+		ED0669360A2137DDDC0FC6B4FE562C63 /* TXSakuraController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TXSakuraController.h; sourceTree = "<group>"; };
+		EE77F478CE0422CA8C05BA68C44E1FA2 /* TXSakuraSlider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TXSakuraSlider.m; sourceTree = "<group>"; };
+		F105A86C2001558070FA050EB16F1E89 /* NSArray+set.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+set.h"; path = "PGToolKit/Classes/ToolHelper/NSArray+set.h"; sourceTree = "<group>"; };
+		F180E13E19742AE077E9C8E83DFF7362 /* Pods-PGToolKit_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PGToolKit_Tests-resources.sh"; sourceTree = "<group>"; };
+		F1ADE07C3098001825FDD3B33A41C734 /* TAAbstractDotView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TAAbstractDotView.m; sourceTree = "<group>"; };
+		F1E0988F7F46490B9C8D9BEB3D868173 /* PGToolKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = PGToolKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F674E0CA46064EA30A6B028A9747262F /* TXSakuraSlider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TXSakuraSlider.h; sourceTree = "<group>"; };
+		F84D7C34D3F342E950293197C674D007 /* SDCollectionViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SDCollectionViewCell.m; sourceTree = "<group>"; };
+		F87A3E8CB630FF7434877568B46EE79C /* TXSakuraTableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TXSakuraTableView.h; sourceTree = "<group>"; };
+		F8E44477B2812748EB77F397B8CBE6BA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC01AEA9A95B3DEED22E8E04B6E0689C /* UIScrollView+EmptyDataSet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+EmptyDataSet.m"; path = "PGToolKit/Classes/ToolHelper/UIScrollView+EmptyDataSet.m"; sourceTree = "<group>"; };
+		FDE0C242EB8E36895B8F25E3F673992D /* TXSakuraApplication.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TXSakuraApplication.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0FCE924B76CBF1CB0E567A6A4AF3F3E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D767CF054970A7810EF13252FAEFD535 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D18BD49414936BCDACA4C9CB80F0926 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43427312E95632B78BDF7D424E3FEF63 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92C0C3E40B6BB8B0FBA2E0EA63770567 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE800207A242039B5F4C64ADB2A91E23 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		020B89DE3EEFEDC8636833AFD584E674 /* PageControl */ = {
+			isa = PBXGroup;
+			children = (
+				4446583AFA1A8F7E19B51A0F2632300F /* TAAbstractDotView.h */,
+				F1ADE07C3098001825FDD3B33A41C734 /* TAAbstractDotView.m */,
+				61786596AD9A046A86984FE5CF907948 /* TAAnimatedDotView.h */,
+				A7E59F2C9D9BE5031D15C4FACBD2E860 /* TAAnimatedDotView.m */,
+				6CC44F53E57343F4C14CB8EFE18FEA19 /* TADotView.h */,
+				8BB3854296DC7FC0588F43A30E81355A /* TADotView.m */,
+				37BA939077542E6ECD94C7D1326A8C9B /* TAPageControl.h */,
+				A7D3D72A04BE9AC527DA3A505DE254FA /* TAPageControl.m */,
+			);
+			name = PageControl;
+			path = PageControl;
+			sourceTree = "<group>";
+		};
+		04A7F6543E505577315D5D9C09594D70 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1FC1600C5B25A9881B5742E0EC1441B5 /* Pods-PGToolKit_Example */,
+				B6627FE6E88853749FC7EAE2DE0C5770 /* Pods-PGToolKit_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		0BFDAE56AE618370579A0BA54E66A64E /* UIViewCategory */ = {
+			isa = PBXGroup;
+			children = (
+				5647CC4A374BAF4A9BCB2205FF23546E /* UIView+frame.h */,
+				8D4A21463F0D91BA2E7CA3DB8D7A7125 /* UIView+frame.m */,
+				8C2B8937597C640CE9E2229820629FFD /* UIView+XMGExtension.h */,
+				9529392397967142E582E732A738A7B4 /* UIView+XMGExtension.m */,
+			);
+			name = UIViewCategory;
+			path = PGToolKit/Classes/ToolHelper/UIViewCategory;
+			sourceTree = "<group>";
+		};
+		0C2A6793FDBFAC081B022005FC57A5BE /* AlertViewController */ = {
+			isa = PBXGroup;
+			children = (
+				66ACE1769A8255E4A828A9B8F3E92084 /* TYAlertController.h */,
+				DE049D934446280D5FD4CB06F453D560 /* TYAlertController.m */,
+				382634A7B50F67937BF3C423908A6DA7 /* TYAlertController+TransitionAnimate.m */,
+				E4D152209750EFFD341601CE92C740C9 /* TYAlertDropDownAnimation.h */,
+				425D5540A782CE1B3202D8ABC10E78E8 /* TYAlertDropDownAnimation.m */,
+				18F445131E6DE7E57E7FF0B96566781D /* TYAlertFadeAnimation.h */,
+				7CC7FB5D2A565599951F04CCA2C9C4F3 /* TYAlertFadeAnimation.m */,
+				5AE9B3916A9895D94D3D7822F03BE280 /* TYAlertScaleFadeAnimation.h */,
+				67CBCA43BEA2BDA98F611544FE15E6D3 /* TYAlertScaleFadeAnimation.m */,
+				9CA48B1A2BADDDCD2B8CFF07B436F231 /* TYAlertView.h */,
+				1E7E7CB713260744FC3E29D993651CDA /* TYAlertView.m */,
+				13E6A8F5106E5A0BE0F932A9E2714060 /* TYBaseAnimation.h */,
+				B1C7BEBC946AB5DBF8B3CFDB17F5982B /* TYBaseAnimation.m */,
+				E2C46E07543AF8A1B7832754FF39FB3B /* TYShowAlertView.h */,
+				0E85C8C1FB0A01F437F1E99B57B2DA13 /* TYShowAlertView.m */,
+				D9B85F27D88C3FF5FB7CEA1D625037DC /* UIView+TYAlertView.h */,
+				16AD6C9EDD3C05962F91CE41F6AA8CB8 /* UIView+TYAlertView.m */,
+				8F2BDDCF5E47A61E98212C8609218F50 /* UIView+TYAutoLayout.h */,
+				903D5A190440BD40B3EBEFDDB9BE0F7B /* UIView+TYAutoLayout.m */,
+				2B5608E24B9395D8727E372056249A09 /* UIViewController+AlertManage.h */,
+				93640D833DDDCE8FAEDAC95B57095776 /* UIViewController+AlertManage.m */,
+			);
+			name = AlertViewController;
+			path = PGToolKit/Classes/ToolHelper/AlertViewController;
+			sourceTree = "<group>";
+		};
+		0D33BDD87F458AA6E5744F9D6E9956D6 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				7868FCFDAD35FAFBD2434683BDF41FCD /* LICENSE */,
+				F1E0988F7F46490B9C8D9BEB3D868173 /* PGToolKit.podspec */,
+				A472E451CAF140F6878926F5337B73DF /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		1B298AD3C3F29DC2F1209D11A414BCA1 /* PGToolKit */ = {
+			isa = PBXGroup;
+			children = (
+				C7B9CC388B46C86DBE686140E6E1B827 /* DateHelper.h */,
+				C89DB245C8161C9BCC1E4DF4CA6662E5 /* DateHelper.m */,
+				D78F4CF47CDD83499518096793F039BA /* MyAttributedStringBuilder.h */,
+				1670AF1A40A7B332662B67555A80DDE0 /* MyAttributedStringBuilder.m */,
+				F105A86C2001558070FA050EB16F1E89 /* NSArray+set.h */,
+				B01C5199BB3D6CFB66969A9E20961C51 /* NSArray+set.m */,
+				D6F526402E4980B5A09DD8FC6CDDCA73 /* ToolHelper.h */,
+				2C5FA78138D136A7AFBCBD02303CFEF5 /* ToolHelper.m */,
+				9192123542B783C7B85C7CEEF2FF0C9E /* UIScrollView+EmptyDataSet.h */,
+				FC01AEA9A95B3DEED22E8E04B6E0689C /* UIScrollView+EmptyDataSet.m */,
+				841FE4ECE7A4549362707E557B187887 /* WXLLabel.h */,
+				30250FF11A51140C00EE8CB62A74EDFD /* WXLLabel.m */,
+				0C2A6793FDBFAC081B022005FC57A5BE /* AlertViewController */,
+				8E8491656B0AA5A2981AC50B4619B441 /* DLLoading */,
+				0D33BDD87F458AA6E5744F9D6E9956D6 /* Pod */,
+				F023D7ACFBBF42592EEABABA291BBC51 /* SakuraKit */,
+				CAA55E1ADAC0516EF6DD2AEDC0692EB0 /* SDCycleScrollView */,
+				D0C4819B93CB806E6ABBE6CD47DC82D0 /* Support Files */,
+				A63738324426E1333B4942E86AB60483 /* UIImageCategory */,
+				0BFDAE56AE618370579A0BA54E66A64E /* UIViewCategory */,
+			);
+			name = PGToolKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		1FC1600C5B25A9881B5742E0EC1441B5 /* Pods-PGToolKit_Example */ = {
+			isa = PBXGroup;
+			children = (
+				AB93FBF755FDDD4C1ACC0A06B16D76F8 /* Info.plist */,
+				C26939319F6E8AB3CB055E254FE7ABFF /* Pods-PGToolKit_Example.modulemap */,
+				B04CBC1361777363940BE3CDBEF2D818 /* Pods-PGToolKit_Example-acknowledgements.markdown */,
+				27F6B56268A4298429AC70C4112B01AF /* Pods-PGToolKit_Example-acknowledgements.plist */,
+				DF46342BDA61397DD0C2A77B8B672C3B /* Pods-PGToolKit_Example-dummy.m */,
+				E5568965A3BA82AA54F8E551F4412776 /* Pods-PGToolKit_Example-frameworks.sh */,
+				1B4F8753D79702332C6652856C955718 /* Pods-PGToolKit_Example-resources.sh */,
+				038779B695F0255CCABCF62737AB17BD /* Pods-PGToolKit_Example-umbrella.h */,
+				45AEFCDB8E2A1CFBD3F35A4685940A46 /* Pods-PGToolKit_Example.debug.xcconfig */,
+				6F44FFAD4FD77698B4C3E8C70B0E1C2E /* Pods-PGToolKit_Example.release.xcconfig */,
+			);
+			name = "Pods-PGToolKit_Example";
+			path = "Target Support Files/Pods-PGToolKit_Example";
+			sourceTree = "<group>";
+		};
+		35A06F0CC4D86088CBEE30FDC5DE159A /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1B298AD3C3F29DC2F1209D11A414BCA1 /* PGToolKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		52405B318E22B821743B93B630DE9C04 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				774ED2A0DAB42424CB32A707D608000E /* TXSakura.h */,
+				8667335B13EFE71739716C8621621243 /* TXSakura.m */,
+				E42D6A5C74DE73EBC08B78647252B8D5 /* TXSakuraManager.h */,
+				1924D3AEE84794CB1FEBFC81D2F1CF17 /* TXSakuraManager.m */,
+				78AB13E580CE1D9B8ED4BB072BBDB702 /* UIImage+Tint.h */,
+				AD6C4CE18A50D125EA0D7B203436900E /* UIImage+Tint.m */,
+			);
+			name = Base;
+			path = Base;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				35A06F0CC4D86088CBEE30FDC5DE159A /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				C03DE4B3459D468938BC71584A559977 /* Products */,
+				04A7F6543E505577315D5D9C09594D70 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7FBEA5D8F6BAC4D7FEFEDE2B046F2D4C /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				FDE0C242EB8E36895B8F25E3F673992D /* TXSakuraApplication.h */,
+				463AB45C72E8BDB56B277BCB4193FA46 /* TXSakuraApplication.m */,
+				967049F97CF909CECBC36D8259DA88BE /* TXSakuraBar.h */,
+				1E8108E06119A11AF347D048C156813B /* TXSakuraBar.m */,
+				9FC21EC02C05295C1049C35C98C0B7BC /* TXSakuraBarItem.h */,
+				7D906B525D1F8584A969D9164D04D255 /* TXSakuraBarItem.m */,
+				AE6AE13F2DC24A919E05E24E8F0F5BFA /* TXSakuraButton.h */,
+				ECFB9E6BF75A0156FB03C39823C92D82 /* TXSakuraButton.m */,
+				ED0669360A2137DDDC0FC6B4FE562C63 /* TXSakuraController.h */,
+				7D7E8545B2EE7A771DA023C703ED02D7 /* TXSakuraController.m */,
+				8400BB63A46D4A450E25524F922660DF /* TXSakuraImageView.h */,
+				86D9DB674388053647BC701D7EC7B1FA /* TXSakuraImageView.m */,
+				DA2A2F2FC7DF557DEE3F691535FBA51C /* TXSakuraIndicatorView.h */,
+				C28579B2DA5C960646D96C3587E0FB9C /* TXSakuraIndicatorView.m */,
+				76061484FAC515D04347D3A24AFDA98C /* TXSakuraLabel.h */,
+				D3D0760635132E87843B7BE5284F9B45 /* TXSakuraLabel.m */,
+				AC46A8BD6BA4C662D502B1A4D2AD96C8 /* TXSakuraLayer.h */,
+				15CF3C9AC834D5B0D81833B5B1FD9DD2 /* TXSakuraLayer.m */,
+				7D91E411D5E2B6066704C4AD89C47530 /* TXSakuraNavigationBar.h */,
+				89B583CD4F2F37BFE910CADC5DB9338E /* TXSakuraNavigationBar.m */,
+				AD6F39C862E88BA7DD9CB9F938FA7B2C /* TXSakuraPageControl.h */,
+				997FA56DA4278F72D1FFA3667899F73C /* TXSakuraPageControl.m */,
+				67F5E019B53DF59D3926D10A57B0D822 /* TXSakuraProgress.h */,
+				B2C9C5FAC07CE2D00B0C3875E925B0AB /* TXSakuraProgress.m */,
+				24A809D0BA6B19C6BC0F5D26BD1458BE /* TXSakuraShapeLayer.h */,
+				EB5D9D345F93D08315480EF32D956197 /* TXSakuraShapeLayer.m */,
+				F674E0CA46064EA30A6B028A9747262F /* TXSakuraSlider.h */,
+				EE77F478CE0422CA8C05BA68C44E1FA2 /* TXSakuraSlider.m */,
+				3C1FAE26AE3746351A4AAB689DA54A42 /* TXSakuraSwitch.h */,
+				76E09D062208F5DD25077FAD9C515A06 /* TXSakuraSwitch.m */,
+				F87A3E8CB630FF7434877568B46EE79C /* TXSakuraTableView.h */,
+				594C27F3AA306D8E0C6C7200F009C73F /* TXSakuraTableView.m */,
+				85DA84E6DC5FA7AEF0E725D1CEFF88BE /* TXSakuraTextComponent.h */,
+				C80E52AFA5722D0BBE271ED53DBAB8AF /* TXSakuraTextComponent.m */,
+				CA56F2AA588B080064E8684A50153CAC /* TXSakuraTrash.h */,
+				8132A8359DF41F3B7EA89E77BB800553 /* TXSakuraTrash.m */,
+				E3C76A4277C6051DE2EF9BE611ADAF99 /* TXSakuraView.h */,
+				E84CF5B223198B47C00426390FE4C0FE /* TXSakuraView.m */,
+			);
+			name = Components;
+			path = Components;
+			sourceTree = "<group>";
+		};
+		8E8491656B0AA5A2981AC50B4619B441 /* DLLoading */ = {
+			isa = PBXGroup;
+			children = (
+				3ACCBB21FF55CC973A03F1BAB52993C3 /* DLLoading.h */,
+				373FF5D80CC8BD443F51ADDCA693F1B6 /* DLLoading.m */,
+				A54B165C389CC0DB6EC22AF98B2DDEE8 /* DLLoadingView.h */,
+				C2771CFB1D8EC034F73FA35C2A7CCBEA /* DLLoadingView.m */,
+				92BF9145C42BFD043C72B6BF269D7CFC /* LLARingSpinnerView.h */,
+				061F6E86536ADC360F31F150A65F2E45 /* LLARingSpinnerView.m */,
+			);
+			name = DLLoading;
+			path = PGToolKit/Classes/ToolHelper/DLLoading;
+			sourceTree = "<group>";
+		};
+		A63738324426E1333B4942E86AB60483 /* UIImageCategory */ = {
+			isa = PBXGroup;
+			children = (
+				797DDAEE5EE35284FC537B1D20B23D70 /* UIImage+ImageWithColor.h */,
+				9327E097D86572C9E9956AFA916A81B7 /* UIImage+ImageWithColor.m */,
+				B627D07007EEA0B4E93AFC5D51102B55 /* UIImage+info.h */,
+				0434DFACF87F12A19D581D1753343F83 /* UIImage+info.m */,
+			);
+			name = UIImageCategory;
+			path = PGToolKit/Classes/ToolHelper/UIImageCategory;
+			sourceTree = "<group>";
+		};
+		B6627FE6E88853749FC7EAE2DE0C5770 /* Pods-PGToolKit_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F8E44477B2812748EB77F397B8CBE6BA /* Info.plist */,
+				9397A74551A07FE54F868FC9C170ADF7 /* Pods-PGToolKit_Tests.modulemap */,
+				7F04CF9CC1CEC22AD69BBB879B168314 /* Pods-PGToolKit_Tests-acknowledgements.markdown */,
+				EA57F1E79C8315A5FC62E5E0B12968D8 /* Pods-PGToolKit_Tests-acknowledgements.plist */,
+				A43116C41B8C5C19B159C1575D97E571 /* Pods-PGToolKit_Tests-dummy.m */,
+				7251D2D2D042D09886602A539BE9F549 /* Pods-PGToolKit_Tests-frameworks.sh */,
+				F180E13E19742AE077E9C8E83DFF7362 /* Pods-PGToolKit_Tests-resources.sh */,
+				DCD2790CC5454EEFB3544E8A1D59FA9E /* Pods-PGToolKit_Tests-umbrella.h */,
+				B97460B3B8542F1D529388930FCFFA64 /* Pods-PGToolKit_Tests.debug.xcconfig */,
+				A2D00D8E685616DE9CC3178D669E0467 /* Pods-PGToolKit_Tests.release.xcconfig */,
+			);
+			name = "Pods-PGToolKit_Tests";
+			path = "Target Support Files/Pods-PGToolKit_Tests";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C03DE4B3459D468938BC71584A559977 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE513520878AC6165511AD0889F8B9F3 /* PGToolKit.framework */,
+				C5503C62AF958447DECDAAF5B296B82D /* Pods_PGToolKit_Example.framework */,
+				B42FB0325A4F5662984B209A0A95D64D /* Pods_PGToolKit_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAA55E1ADAC0516EF6DD2AEDC0692EB0 /* SDCycleScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				51947152BA930D7019402AB2F6DED7E5 /* SDCollectionViewCell.h */,
+				F84D7C34D3F342E950293197C674D007 /* SDCollectionViewCell.m */,
+				9F747F8F5AEDF5C4463D04913D27642B /* SDCycleScrollView.h */,
+				1E14AE1ED7641F1B508A7C1FFC89C5DE /* SDCycleScrollView.m */,
+				20FB43791E2361C20E7D33F38E3EA9B6 /* UIView+SDExtension.h */,
+				2583B8FB4435043FF0FF830E6B5FDC54 /* UIView+SDExtension.m */,
+				020B89DE3EEFEDC8636833AFD584E674 /* PageControl */,
+			);
+			name = SDCycleScrollView;
+			path = PGToolKit/Classes/ToolHelper/SDCycleScrollView;
+			sourceTree = "<group>";
+		};
+		D0C4819B93CB806E6ABBE6CD47DC82D0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2A76FAA000D2DBDFDC0625F61DCDD5D /* Info.plist */,
+				71C740F2F3A1119C037A8090314B24DD /* PGToolKit.modulemap */,
+				273345147A69E482CAFB23722F95BB42 /* PGToolKit.xcconfig */,
+				A163CA6EA9699C4E16E5499388A5D0E1 /* PGToolKit-dummy.m */,
+				0EDB4061B32CAC3C584E46782390F0CC /* PGToolKit-prefix.pch */,
+				B2525BBB774235A20A951BD760DBBA2A /* PGToolKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/PGToolKit";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F023D7ACFBBF42592EEABABA291BBC51 /* SakuraKit */ = {
+			isa = PBXGroup;
+			children = (
+				0B18365C21B525FDB87B4156CCAF5369 /* TXSakuraKit.h */,
+				52405B318E22B821743B93B630DE9C04 /* Base */,
+				7FBEA5D8F6BAC4D7FEFEDE2B046F2D4C /* Components */,
+			);
+			name = SakuraKit;
+			path = PGToolKit/Classes/ToolHelper/SakuraKit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9EFAEEB89FE544D9345A04B14EC8B6E9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				925B2227264CE8BB8440ACF9F982DBD1 /* Pods-PGToolKit_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D786C596F3D674200C761974CF625265 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F23ED96B48A293CEF21FC9F042DBD4 /* DateHelper.h in Headers */,
+				1A053F41FE00B13B1CA7021AE12E2FB0 /* DLLoading.h in Headers */,
+				905A4161A88301ABC6086A690F17A586 /* DLLoadingView.h in Headers */,
+				1ED4DCC28C1B0AFDE5934C88E5E92F7E /* LLARingSpinnerView.h in Headers */,
+				67582A9AD38DDA3A809ECE6C226FA63A /* MyAttributedStringBuilder.h in Headers */,
+				93394630F6EE5C96ABA804238B534FA4 /* NSArray+set.h in Headers */,
+				BD47A12E7F67668AFAB75B47F45B37D9 /* PGToolKit-umbrella.h in Headers */,
+				C0A0236BBCD2404FEF25BF787C2172A4 /* SDCollectionViewCell.h in Headers */,
+				E15935DDF83F7C293C9FFF5B035D8E56 /* SDCycleScrollView.h in Headers */,
+				4FFA8F0ACFC8CC3C0A397D5FD6694A39 /* TAAbstractDotView.h in Headers */,
+				64294B475E46F594F6815D157B704383 /* TAAnimatedDotView.h in Headers */,
+				C408304DF8D730F33542C863C3B4F589 /* TADotView.h in Headers */,
+				19FAEA690196CE5C179D2664F09DC4A0 /* TAPageControl.h in Headers */,
+				99BD7A60367F6EC63C5D6247961854D9 /* ToolHelper.h in Headers */,
+				0F8617EDDF12305960CA0718DA01467F /* TXSakura.h in Headers */,
+				EAF85D8F0E2168F6C2819E8E1A845C0C /* TXSakuraApplication.h in Headers */,
+				E7A0C9B6ACA8A3F5C83CFD0B9662E055 /* TXSakuraBar.h in Headers */,
+				06CD419239CC968E22591A0984AB2133 /* TXSakuraBarItem.h in Headers */,
+				5BDB7BF3A0568BBEEF75B5E26954955F /* TXSakuraButton.h in Headers */,
+				15B1FCC1AE79C3220B7B8C9F2CF7675B /* TXSakuraController.h in Headers */,
+				5E619619ECB341B30097B8E0EA6F155B /* TXSakuraImageView.h in Headers */,
+				D230BC0BAA08D24B5E9EA837FD3EB2B9 /* TXSakuraIndicatorView.h in Headers */,
+				4FD785B4CE8A0202A74F9EC67ADBE90A /* TXSakuraKit.h in Headers */,
+				D15E6BA3C59FB651D60DF33312B9EEC0 /* TXSakuraLabel.h in Headers */,
+				21A6984690A3ED773F6FD6946233B822 /* TXSakuraLayer.h in Headers */,
+				AC56D3D2D85A47EEAF7C0A86046B42D5 /* TXSakuraManager.h in Headers */,
+				DA2F4D03020CA9B06A3329667E99803D /* TXSakuraNavigationBar.h in Headers */,
+				A36290785DF7A456C2F53BE50A028BA5 /* TXSakuraPageControl.h in Headers */,
+				63CFAE2183AE105AB588CF8EBA580796 /* TXSakuraProgress.h in Headers */,
+				4343A8BFD6E5E121A3C15AEDB9618416 /* TXSakuraShapeLayer.h in Headers */,
+				F0A4E4F78FC9E8D6D64916A1A194AC01 /* TXSakuraSlider.h in Headers */,
+				B80B9CB6217EE8B8D7BCB9BDDCAC119F /* TXSakuraSwitch.h in Headers */,
+				DAE931733C296ED8D9D64F42449ABBC7 /* TXSakuraTableView.h in Headers */,
+				4601BCCC7A114F5EA052C3C378BAF3F0 /* TXSakuraTextComponent.h in Headers */,
+				15B676BED69037FEA0DCDE3DBEFBC72E /* TXSakuraTrash.h in Headers */,
+				629DE10ABF68351D206AB084D5D91841 /* TXSakuraView.h in Headers */,
+				4DA2730E21E7AA05A68BDBDAD253C93B /* TYAlertController.h in Headers */,
+				1D8062CFEA071DC737C922CE5F12ED5E /* TYAlertDropDownAnimation.h in Headers */,
+				379158AA1B1CCBDB1D6E8FA5966C14E7 /* TYAlertFadeAnimation.h in Headers */,
+				A5FB15A6D2615C3DF335907EF56D1442 /* TYAlertScaleFadeAnimation.h in Headers */,
+				94F4126B56AF5BB660F90D5788836363 /* TYAlertView.h in Headers */,
+				932C67E657221C790008EBA268DA5BD1 /* TYBaseAnimation.h in Headers */,
+				2BF3ECD6439146E7EB7637FA032306BE /* TYShowAlertView.h in Headers */,
+				20861D496B7A4FCEE2753EA932BE1172 /* UIImage+ImageWithColor.h in Headers */,
+				ADF6243FEA70CEF3780BCBDFE2188305 /* UIImage+info.h in Headers */,
+				22F9952CF4315DED5286F3D1C17526D6 /* UIImage+Tint.h in Headers */,
+				955B83B9A2DFB1722E45462ED5500CC3 /* UIScrollView+EmptyDataSet.h in Headers */,
+				56F26B8AC0255BBB08706763911E34EE /* UIView+frame.h in Headers */,
+				7280A4D4393073D219699BAE2234A502 /* UIView+SDExtension.h in Headers */,
+				7FF349F4F1765481E74FAAD87E9EA61E /* UIView+TYAlertView.h in Headers */,
+				E526CF7F605D9377ADCF81223BA1C8AE /* UIView+TYAutoLayout.h in Headers */,
+				B7D40A2B95EC9B2CFAA4016F21C75E36 /* UIView+XMGExtension.h in Headers */,
+				55DB5330C47AA8BAF239D2CDE1C06D12 /* UIViewController+AlertManage.h in Headers */,
+				A34F43724294B1DF7B3880D8A9ABC47F /* WXLLabel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEB614CCE1C061935D824859D5C4D70E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A21F625759E1A6127157E8190C66FD1F /* Pods-PGToolKit_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		74CC9E001A36391FAB569D2EEE0740CF /* Pods-PGToolKit_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15940C70A9DE05383726898B63CB8AEE /* Build configuration list for PBXNativeTarget "Pods-PGToolKit_Tests" */;
+			buildPhases = (
+				5B1D8C7314453ECFD834180AA9643B8C /* Sources */,
+				0FCE924B76CBF1CB0E567A6A4AF3F3E2 /* Frameworks */,
+				9EFAEEB89FE544D9345A04B14EC8B6E9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				306A7050A82667B52A8BBDA7D8FC4BCE /* PBXTargetDependency */,
+			);
+			name = "Pods-PGToolKit_Tests";
+			productName = "Pods-PGToolKit_Tests";
+			productReference = B42FB0325A4F5662984B209A0A95D64D /* Pods_PGToolKit_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A94F98612010F4B1BCFF419A45D5773C /* Pods-PGToolKit_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35E4E61059D3FCD583370A70E78C8A01 /* Build configuration list for PBXNativeTarget "Pods-PGToolKit_Example" */;
+			buildPhases = (
+				CAE01FC3FACB2D47631B5900B1701325 /* Sources */,
+				92C0C3E40B6BB8B0FBA2E0EA63770567 /* Frameworks */,
+				DEB614CCE1C061935D824859D5C4D70E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E446729FFD2DBF97BD8EF8FC4247AF0E /* PBXTargetDependency */,
+			);
+			name = "Pods-PGToolKit_Example";
+			productName = "Pods-PGToolKit_Example";
+			productReference = C5503C62AF958447DECDAAF5B296B82D /* Pods_PGToolKit_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DF2ACC2D909C27A4FDE5D35D0836B14D /* PGToolKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2465C08FC93962D621A1D6CB184F47B7 /* Build configuration list for PBXNativeTarget "PGToolKit" */;
+			buildPhases = (
+				40EFCDA942944FC393D93B15897D0EF2 /* Sources */,
+				1D18BD49414936BCDACA4C9CB80F0926 /* Frameworks */,
+				D786C596F3D674200C761974CF625265 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PGToolKit;
+			productName = PGToolKit;
+			productReference = BE513520878AC6165511AD0889F8B9F3 /* PGToolKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = C03DE4B3459D468938BC71584A559977 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF2ACC2D909C27A4FDE5D35D0836B14D /* PGToolKit */,
+				A94F98612010F4B1BCFF419A45D5773C /* Pods-PGToolKit_Example */,
+				74CC9E001A36391FAB569D2EEE0740CF /* Pods-PGToolKit_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40EFCDA942944FC393D93B15897D0EF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47D16DC5A8526B0D20222F0FAC04A745 /* DateHelper.m in Sources */,
+				F0750A03ED07A5628B6C16272872FE05 /* DLLoading.m in Sources */,
+				A4FEAE540CFF8088F07EB384EAB7070B /* DLLoadingView.m in Sources */,
+				CCB6190AD7596F50BD20EF191718E22A /* LLARingSpinnerView.m in Sources */,
+				FD1B39FBF8F96AE8FE13EA997F3564B0 /* MyAttributedStringBuilder.m in Sources */,
+				DE01F6D40F5DDA53DED04DAFD96B5A24 /* NSArray+set.m in Sources */,
+				590374973AD6EEF28212002AF780FFAF /* PGToolKit-dummy.m in Sources */,
+				CC0620860822E1B6A10DF8762EF99A8F /* SDCollectionViewCell.m in Sources */,
+				C7FB2D2AAE6CC54A66531E3955FED1E5 /* SDCycleScrollView.m in Sources */,
+				E3339679D0DC10B4334D1005B5B237DB /* TAAbstractDotView.m in Sources */,
+				08D928B377F2D397D0B4925E62CC0D10 /* TAAnimatedDotView.m in Sources */,
+				EBEA1912508886AD3B4C1AA9911810F1 /* TADotView.m in Sources */,
+				B7E25BBDE0C4A42722D7A8EF7DFCD921 /* TAPageControl.m in Sources */,
+				9A513EC038DE91D9CAB4FB13A21F7036 /* ToolHelper.m in Sources */,
+				55D99363CC61782380E530F1D1CF2C91 /* TXSakura.m in Sources */,
+				4E2388CF39251401ED1A3F5D8F80F8EF /* TXSakuraApplication.m in Sources */,
+				0AE5CE03EA362C74B99F9192AD6185BA /* TXSakuraBar.m in Sources */,
+				A9B5EB076F8C564D808DCB4EFDF6F6D2 /* TXSakuraBarItem.m in Sources */,
+				1672FE40FAF88D91649C4E36073196F8 /* TXSakuraButton.m in Sources */,
+				D1933EE37E7F62C00E9C37B62A09770B /* TXSakuraController.m in Sources */,
+				C330A532E1CEF89FF283D7BEB7250AC5 /* TXSakuraImageView.m in Sources */,
+				FFA875F8359F122E9E9252F3C0F139FA /* TXSakuraIndicatorView.m in Sources */,
+				3E599DB947EFC66D4E51DE432D359DD0 /* TXSakuraLabel.m in Sources */,
+				AA237830DD877AD938CAB68DC89921BC /* TXSakuraLayer.m in Sources */,
+				8E209DA52E53507899785F39A083410B /* TXSakuraManager.m in Sources */,
+				F4702C0B76AE41AFA9CDB59A8EA18F5C /* TXSakuraNavigationBar.m in Sources */,
+				AA2A1162668A2D37C34834FE47874A99 /* TXSakuraPageControl.m in Sources */,
+				F02648DF14F20F2AC91CC52B41803CFC /* TXSakuraProgress.m in Sources */,
+				BBA1A4FDEC9DD2260E61AEC16B80F161 /* TXSakuraShapeLayer.m in Sources */,
+				CD6393617825AC0F8054ED5BF51E906F /* TXSakuraSlider.m in Sources */,
+				8E326481872020971F50222D0E7BDC33 /* TXSakuraSwitch.m in Sources */,
+				7095900D7111DF4EF906487F119A2EEC /* TXSakuraTableView.m in Sources */,
+				C11A620CDD9FFD326B9196CF6329EC07 /* TXSakuraTextComponent.m in Sources */,
+				B5455ED640ADD3E92E7B2E4D053777B6 /* TXSakuraTrash.m in Sources */,
+				4D399D0104DC360EEF7A4F6A44A20EDB /* TXSakuraView.m in Sources */,
+				40C594CA8542387ACAC6B63D40F1C109 /* TYAlertController+TransitionAnimate.m in Sources */,
+				752EDF22F844272F76A2362BFEF50528 /* TYAlertController.m in Sources */,
+				35CA4C2579BB98060B8095EF6407ACD8 /* TYAlertDropDownAnimation.m in Sources */,
+				C72BC9A5499F11DB7DE804CCF1F95F3B /* TYAlertFadeAnimation.m in Sources */,
+				C3FAE8005314289B096C959661C21CC6 /* TYAlertScaleFadeAnimation.m in Sources */,
+				F930CE23DD84321BB3BCC51619D2E526 /* TYAlertView.m in Sources */,
+				7D39C4A314CC048E03C29F5D0272E2DA /* TYBaseAnimation.m in Sources */,
+				5F6290D0809B209D9191871993F829CD /* TYShowAlertView.m in Sources */,
+				110791655501E2195758DBCAA8AEBD70 /* UIImage+ImageWithColor.m in Sources */,
+				A1B7744497489E7F805E1D21949D6150 /* UIImage+info.m in Sources */,
+				A5B0C45E2CDE2B9A0B24B771ACE4C0DF /* UIImage+Tint.m in Sources */,
+				52431641178CE73628B531C409E3B8FF /* UIScrollView+EmptyDataSet.m in Sources */,
+				C6EC5CA5E398977E6533C3F89A5B11AD /* UIView+frame.m in Sources */,
+				A336F75A8C6DA13E204B00CE9AF1FA01 /* UIView+SDExtension.m in Sources */,
+				208B178BFD8EF75231716D66BB4E9A03 /* UIView+TYAlertView.m in Sources */,
+				3B6638D35887AC542B8C152CF9A4D025 /* UIView+TYAutoLayout.m in Sources */,
+				B6F672C95FA53395A6541D6D4EC10F07 /* UIView+XMGExtension.m in Sources */,
+				687534D75420AF0D499DBEAA07C8DF92 /* UIViewController+AlertManage.m in Sources */,
+				3D2AEC9E6E6A51843CC9671B538DD1DB /* WXLLabel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B1D8C7314453ECFD834180AA9643B8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AE187DA72B7DA38FC427F7E735BA0F8 /* Pods-PGToolKit_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAE01FC3FACB2D47631B5900B1701325 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEF3B8127DE884DF89F22258C7F33D1F /* Pods-PGToolKit_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		306A7050A82667B52A8BBDA7D8FC4BCE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-PGToolKit_Example";
+			target = A94F98612010F4B1BCFF419A45D5773C /* Pods-PGToolKit_Example */;
+			targetProxy = 983F07B3AC39FBAC814FE28DDC177ED2 /* PBXContainerItemProxy */;
+		};
+		E446729FFD2DBF97BD8EF8FC4247AF0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PGToolKit;
+			target = DF2ACC2D909C27A4FDE5D35D0836B14D /* PGToolKit */;
+			targetProxy = 06D01452D486CB92832B723A9835FB81 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1EE19F5DD95931924296F637BF18BD8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		27296721CE610C1257886960D24A18C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45AEFCDB8E2A1CFBD3F35A4685940A46 /* Pods-PGToolKit_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PGToolKit_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PGToolKit_Example/Pods-PGToolKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		45A297D7ADF15F5792C7480625DA0E88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B97460B3B8542F1D529388930FCFFA64 /* Pods-PGToolKit_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PGToolKit_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PGToolKit_Tests/Pods-PGToolKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		990DB959690A9A1E71185C796BDCE128 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 273345147A69E482CAFB23722F95BB42 /* PGToolKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PGToolKit/PGToolKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PGToolKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PGToolKit/PGToolKit.modulemap";
+				PRODUCT_MODULE_NAME = PGToolKit;
+				PRODUCT_NAME = PGToolKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BF66B4D0CA281554E06A5571C84A7886 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2D00D8E685616DE9CC3178D669E0467 /* Pods-PGToolKit_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PGToolKit_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PGToolKit_Tests/Pods-PGToolKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C17963861CF4943A13E66D20011AE9C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 273345147A69E482CAFB23722F95BB42 /* PGToolKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PGToolKit/PGToolKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PGToolKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PGToolKit/PGToolKit.modulemap";
+				PRODUCT_MODULE_NAME = PGToolKit;
+				PRODUCT_NAME = PGToolKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D31DC55686E392DDDFC880FB116BBB2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F44FFAD4FD77698B4C3E8C70B0E1C2E /* Pods-PGToolKit_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PGToolKit_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PGToolKit_Example/Pods-PGToolKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F4568DEE257655D290C2B9CEAB37C934 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15940C70A9DE05383726898B63CB8AEE /* Build configuration list for PBXNativeTarget "Pods-PGToolKit_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45A297D7ADF15F5792C7480625DA0E88 /* Debug */,
+				BF66B4D0CA281554E06A5571C84A7886 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2465C08FC93962D621A1D6CB184F47B7 /* Build configuration list for PBXNativeTarget "PGToolKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				990DB959690A9A1E71185C796BDCE128 /* Debug */,
+				C17963861CF4943A13E66D20011AE9C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EE19F5DD95931924296F637BF18BD8F /* Debug */,
+				F4568DEE257655D290C2B9CEAB37C934 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35E4E61059D3FCD583370A70E78C8A01 /* Build configuration list for PBXNativeTarget "Pods-PGToolKit_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27296721CE610C1257886960D24A18C8 /* Debug */,
+				D31DC55686E392DDDFC880FB116BBB2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

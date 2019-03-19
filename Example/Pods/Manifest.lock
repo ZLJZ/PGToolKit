@@ -1,0 +1,16 @@
+PODS:
+  - PGToolKit (0.1.0)
+
+DEPENDENCIES:
+  - PGToolKit (from `../`)
+
+EXTERNAL SOURCES:
+  PGToolKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PGToolKit: 300560a03109c03976a46be5dc1fd3470d970edc
+
+PODFILE CHECKSUM: 553c714781c9bea5547b4a6c53e78b40a462f79d
+
+COCOAPODS: 1.5.0

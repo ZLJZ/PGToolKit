@@ -58,14 +58,14 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		648C00095EAC905CBC0F1B38 /* Pods_PGToolKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PGToolKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		689A7F76231E2FB5A0D5E8CA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		689A7F76231E2FB5A0D5E8CA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		786BA8C2955CE225167A3F07 /* Pods-PGToolKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PGToolKit_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PGToolKit_Tests/Pods-PGToolKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8E661548C0BA3F2D4BD584B7 /* PGToolKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = PGToolKit.podspec; path = ../PGToolKit.podspec; sourceTree = "<group>"; };
+		8E661548C0BA3F2D4BD584B7 /* PGToolKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PGToolKit.podspec; path = ../PGToolKit.podspec; sourceTree = "<group>"; };
 		9C2BFEBBE1B4D1A45BC126BB /* Pods-PGToolKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PGToolKit_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PGToolKit_Tests/Pods-PGToolKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A67FA91747A7724AAB9BA19B /* Pods-PGToolKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PGToolKit_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PGToolKit_Example/Pods-PGToolKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		B4F802F032E09809CD24BC2D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B4F802F032E09809CD24BC2D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		CAD66E11D1235172BB339B66 /* Pods_PGToolKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PGToolKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -247,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = Cicada;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = A6H2H8LCPE;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -485,6 +488,7 @@
 			baseConfigurationReference = A67FA91747A7724AAB9BA19B /* Pods-PGToolKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A6H2H8LCPE;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PGToolKit/PGToolKit-Prefix.pch";
 				INFOPLIST_FILE = "PGToolKit/PGToolKit-Info.plist";
@@ -500,6 +504,7 @@
 			baseConfigurationReference = 57C2F2F8A3BDAB97D565CB45 /* Pods-PGToolKit_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A6H2H8LCPE;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PGToolKit/PGToolKit-Prefix.pch";
 				INFOPLIST_FILE = "PGToolKit/PGToolKit-Info.plist";

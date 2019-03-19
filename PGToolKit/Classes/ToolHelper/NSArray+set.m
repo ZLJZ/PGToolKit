@@ -20,12 +20,10 @@
         object = [self objectAtIndex:index];
         
         if ([object isKindOfClass:[NSNull class]]) {
-//            P_Log(@"服务器又返回错误字段了");
         }
         
     }else{
         
-        P_Log(@"数组越界");
         return @"";
         
     }

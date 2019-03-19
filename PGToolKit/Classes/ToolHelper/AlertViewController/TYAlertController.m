@@ -223,7 +223,6 @@
 - (void)configureAlertView
 {
     if (_alertView == nil) {
-        P_Log(@"%@: alertView is nil",NSStringFromClass([self class]));
         return;
     }
     _alertView.userInteractionEnabled = YES;
@@ -358,7 +357,6 @@
 {
     [[NSNotificationCenter defaultCenter] removeObserver:self name:UIKeyboardWillShowNotification object:nil];
     [[NSNotificationCenter defaultCenter] removeObserver:self name:UIKeyboardWillHideNotification object:nil];
-    //P_Log(@"%@ dealloc",NSStringFromClass([self class]));
 }
 
 @end

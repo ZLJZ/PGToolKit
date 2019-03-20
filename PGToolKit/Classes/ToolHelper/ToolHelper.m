@@ -7,7 +7,6 @@
 //
 
 #import "ToolHelper.h"
-#import "NetworkRequest.h"
 
 #define FONT_SYSTEM @"Helvetica"
 #define NetworkErrorCode 0x0000024B6
@@ -122,26 +121,23 @@
 }
 
 //判断网络状态
-+(NSInteger)internetReachability{
-    NSInteger num = 0;
-    //判断网络状态
-//    Reachability *internetReachability=[Reachability reachabilityForInternetConnection];
-//    [internetReachability startNotifier];
-    NetworkStatus netStatus = [HttpRequest getInstance].netStatus;
-    
-    switch (netStatus) {
-        case NotReachable:
-            num=1;
-            break;
-        case ReachableViaWiFi:
-            num=2;
-            break;
-        case ReachableViaWWAN:
-            num=3;
-            break;
-    }
-    return num;
-}
+//+(NSInteger)internetReachability{
+//    NSInteger num = 0;
+//    NetworkStatus netStatus = [HttpRequest getInstance].netStatus;
+//
+//    switch (netStatus) {
+//        case NotReachable:
+//            num=1;
+//            break;
+//        case ReachableViaWiFi:
+//            num=2;
+//            break;
+//        case ReachableViaWWAN:
+//            num=3;
+//            break;
+//    }
+//    return num;
+//}
 
 + (NSURL *)fileURLForBuggyWKWebView8:(NSURL *)fileURL {
     NSError *error = nil;

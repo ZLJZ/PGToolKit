@@ -1,5 +1,5 @@
 PODS:
-  - PGToolKit (0.1.0)
+  - PGToolKit (0.1.2)
 
 DEPENDENCIES:
   - PGToolKit (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  PGToolKit: 7ab2c8360f2c7507ac5b1ce604495e79c2cffbd5
+  PGToolKit: 5e0eb28763859d3ec852bf9079e5c30c29a2fba5
 
 PODFILE CHECKSUM: 553c714781c9bea5547b4a6c53e78b40a462f79d
 

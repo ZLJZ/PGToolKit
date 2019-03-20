@@ -7,6 +7,7 @@
 //
 
 #import "UIViewController+AlertManage.h"
+#import <objc/runtime.h>
 
 @implementation UIViewController (AlertManage)
 

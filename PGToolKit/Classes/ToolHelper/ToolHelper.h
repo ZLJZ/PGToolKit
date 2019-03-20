@@ -27,8 +27,6 @@ typedef enum : NSUInteger {
 + (UIColor *) colorWithHexString: (NSString *)color;
 + (UIColor *) colorWithHex:(NSString *)hexColor alpha:(float)alpha;
 
-//判断网络状态
-+(NSInteger)internetReachability;
 
 +(CGRect)stringRectWithPingFangLightSize:(CGSize)size fontSize:(CGFloat)font withString:(NSString *)string;
 //iOS 9之前加载本地文件

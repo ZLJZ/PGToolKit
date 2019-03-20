@@ -1,5 +1,5 @@
 PODS:
-  - PGToolKit (0.1.3):
+  - PGToolKit (0.1.4):
     - SDWebImage (~> 4.2.2)
   - SDWebImage (4.2.3):
     - SDWebImage/Core (= 4.2.3)
@@ -17,7 +17,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  PGToolKit: c9bc7c9269b012ca09d3aa157362a1b3babe6cd2
+  PGToolKit: dd558912276c0fc08988e6b7b0b23e5656fe51a8
   SDWebImage: 791bb72962b3492327ddcac4b1880bd1b5458431
 
 PODFILE CHECKSUM: 553c714781c9bea5547b4a6c53e78b40a462f79d

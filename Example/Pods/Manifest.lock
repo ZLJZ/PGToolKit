@@ -1,15 +1,24 @@
 PODS:
-  - PGToolKit (0.1.2)
+  - PGToolKit (0.1.3):
+    - SDWebImage (~> 4.2.2)
+  - SDWebImage (4.2.3):
+    - SDWebImage/Core (= 4.2.3)
+  - SDWebImage/Core (4.2.3)
 
 DEPENDENCIES:
   - PGToolKit (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - SDWebImage
 
 EXTERNAL SOURCES:
   PGToolKit:
     :path: "../"
 
 SPEC CHECKSUMS:
-  PGToolKit: 5e0eb28763859d3ec852bf9079e5c30c29a2fba5
+  PGToolKit: c9bc7c9269b012ca09d3aa157362a1b3babe6cd2
+  SDWebImage: 791bb72962b3492327ddcac4b1880bd1b5458431
 
 PODFILE CHECKSUM: 553c714781c9bea5547b4a6c53e78b40a462f79d
 

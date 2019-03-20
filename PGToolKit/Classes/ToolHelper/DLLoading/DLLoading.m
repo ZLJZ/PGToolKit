@@ -7,6 +7,7 @@
 //
 
 #import "DLLoading.h"
+#import "UIView+frame.h"
 #define TOAST_DURATION 3.0 // 弹框消失时间
 @implementation DLLoading
 {

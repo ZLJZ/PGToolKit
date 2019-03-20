@@ -112,7 +112,7 @@
     [super layoutSubviews];
     
     if (self.onlyDisplayText) {
-        _titleLabel.frame = CGRectMake(0, 0, self.width-10, self.height);;
+        _titleLabel.frame = CGRectMake(0, 0, self.sd_width-10, self.sd_height);;
     } else {
         _imageView.frame = self.bounds;
         CGFloat titleLabelW = self.sd_width;
